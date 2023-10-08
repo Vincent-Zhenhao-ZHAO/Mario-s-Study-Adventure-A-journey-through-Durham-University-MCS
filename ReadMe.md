@@ -1,117 +1,98 @@
-#####  Mario's Study Adventure: A Journey through Durham University MCS ######
+# Mario's Study Adventure: A Journey Through Durham University MCS 🎓🍄
 
-Unity version Requirements: 2021.3.17f1 (LTS)
-* Note: If not using this version, it would be better to update to this version to avoid any errors.
+Embark on an enlightening adventure with Mario, exploring the fields of Computer Science at Durham University!
 
-##### How to use Unity to open it #####
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Asset & Package References](#asset--package-references)
+- [Game Controls & Building](#game-controls--building)
+- [Scenes Navigation & Testing](#scenes-navigation--testing)
+- [The Adventure Story & Instructions](#the-adventure-story--instructions)
+- [Acknowledgements & Resources](#acknowledgements--resources)
+- [Game Testing](#game-testing)
+- [File Descriptions](#file-descriptions)
+- [Troubleshooting](#troubleshooting)
 
-- Open Unity -> Click Open -> Select the project folder -> Open -> Wait for Unity to load the project
+## Prerequisites
+### Unity Version
+- **2021.3.17f1 (LTS)**
+  - ⚠️ Ensure to utilize the recommended Unity version to mitigate compatibility issues.
 
-#### Assets used #######
-- 8K Skybox Pack Free: https://assetstore.unity.com/packages/2d/textures-materials/sky/8k-skybox-pack-free-150926
+## Getting Started
+### Opening the Project
+1. Launch **Unity**.
+2. Click **Open**.
+3. Navigate and select the project folder.
+4. Hit **Open** and patiently wait for the project to load.
 
-#### Packages Unity #######
-- TextMesh Pro -> Need to install from the package manager or follow this guide: https://www.youtube.com/watch?v=bR0clpZvjXo&ab_channel=SpeedTutor
-- 2D 
-- 2D Animation
-- 2D Pixel Perfect
-- 2D PSD importer
-- 2D Sprite
-- 2D SpriteShape
-- 2D TILEMAP Editor
-- Jetbrains Rider
-- Test Framework
-- Timeline
-- Unity UI 
-- Version Control
-- Version Scripting
-- Visual Studio Code Editor
-- Visual Studio Editor
+## Asset & Package References
+### Essential Assets
+- [8K Skybox Pack Free](https://assetstore.unity.com/packages/2d/textures-materials/sky/8k-skybox-pack-free-150926)
 
-##### How to play ######
+### Unity Packages Utilized
+- TextMesh Pro ([Installation Guide](https://www.youtube.com/watch?v=bR0clpZvjXo&ab_channel=SpeedTutor))
+- 2D, 2D Animation, and more *(...)*
 
-- A for left, D for right, W for up, S for down, space for jump
+## Game Controls & Building
+### Gameplay Controls
+- **A**: Left
+- **D**: Right
+- **W**: Up
+- **S**: Down
+- **Space**: Jump
 
-##### How to build ######
+### Build Instructions
+1. Navigate: **File** > **Build Settings**
+2. Select Target Platform
+3. Click **Build**
+   - Ensure all 16 scenes are configured in the build settings as follows:
+     - Start > Instructions > 1.1 > ... > GameOver > GameStory
 
-- File -> Build Settings -> Select Target Platform -> Build
-* Note: Make sure you put all scenes in the build settings before building the game.
-Start -> Instructions -> 1.1 -> 1.2 -> FirstYearCong -> 2.1 -> 2.2 -> 2.3 -> SecondYearCong -> 3.1 -> 3.2 -> 3.3 -> 3.4 -> 
-FinalCong -> GameOver -> GameStory
-* There are total 16 scenes in the game, make sure you put all scenes in the build settings before building the game.
+## Scenes Navigation & Testing
+### Opening the First Scene
+- Navigate to the scene folder and open the **Start** scene.
 
-###### How to open the first scene ######
+### Testing the Game within Unity
+- Navigate and open **Start** scene, then press the **Play** button.
+  - Note: Adjust the aspect ratio to **16:9** or maximize the play window if the full scene is not visible.
 
-- Open the project in Unity -> Open the scene folder -> Open the first scene (Start)
+### Using Test Functions
+- Enable direct level testing:
+  - **1.1 Scene**: Canvas > Btn > Year2 > Enable.
+  - **2.1 Scene**: Canvas > Btn > GoYear3 > Enable.
+  - 📝 Note: Minigames need to be unlocked during gameplay by collecting 10 credits per level.
 
-###### How to test game on Unity ######
-- Open the project in Unity -> Open the scene folder -> Open the first scene (Start) -> Press play button
-Note: if you find can't see the full scene, please change the aspect ratio to 16:9 in the game window, 
-      or change play focused window to play maximized.
+## The Adventure Story & Instructions
+### Game Storyline
+Join Mario, an illustrious plumber and now a student, as he delves into the theoretical and practical world of Computer Science at Durham University...
 
-###### How to open test function ######
+### Gameplay Instructions
+- **Objective**: Unlock the CW minigame by collecting 10 credits per level.
+- **Enemies**: Eliminate by jumping on them.
+- **Coursework (CW)**: Located throughout each level; quantities vary.
+- **Progression**: Locate and enter the MCS building post-CW completion to advance.
 
-I have created a test function for the game, so you don't need to play the whole game but can test each level directly.
+### Gameplay Challenges
+Efficiently manage Mario’s time between completing coursework and acquiring credits!
 
-Open 1.1 scene -> Canvas -> Btn -> Year2 -> enable this.
-Open 2.1 scene -> Canvas -> Btn -> GoYear3 -> enable this.
+## Acknowledgements & Resources
+### Sprites, Music, & More
+- Refer to detailed sprite, music, and code references [here](RESOURCE_FILE.md).
 
-* Note: this is only for testing each level, for minigame you need to unlock it by yourself inside the game.
-        The way to unlock he minigame is to collect 10 credits in the level.
+## Game Testing
+- Compatibility validated for **Mac OS** and **Windows**.
+- UAT conducted with various players; feedback indicates a balance of fun, excitement, and challenges.
 
-###### Game Story ######
+## File Descriptions
+- **Mario-s-Study-Adventure-A-journey-through-Durham-University-MCS**: Main Unity project folder.
+- **GameVideo.Mov**: A brief, 1-minute gameplay video.
+- **Game Specification Form**: Detailed game specs.
 
-Mario, the famous plumber, has decided to take a break from his adventures in the Mushroom Kingdom and pursue higher education. 
-He has enrolled in Durham University to study computer science. As Mario progresses through the levels, he learns about the different topics
-in computer science, such as Web development, Machine Learning etc. He uses his newfound knowledge to defeat Bowser's minions and do the 
-coursework in the meantime. Frederick Li is the person who is able to assist him. With determination, Mario sets out on a new adventure 
-that will test his skills both in and out of the classroom. Will he be able to save the university and earn his degree in computer science? 
-Only time will tell.
+## Troubleshooting
+- **Platform Error**: If a platform incompatibility warning surfaces, switch to the respective environment.
+- **Font Mismatch Error**: For font issues, click the error and select "Fix Name" on the right.
 
-###### Game Instruction ######
+---
 
-- Mario is a student at Durham University; he needs to collect 10 credits in each level to unlock the minigame(CW).
-- Mario can jump on the enemy to kill them.
-- There is one CW in level one, two CW in level two, three CW in level three.
-- After finishing all CWs, Mario needs to find an MCS building to continue next level
-- If over the time limit, Mario needs to restart the level, and he will lose 1 lives, if Mario loses all lives, the game will be over.
-
-###### Game Challenge ######
-
-Balance time between coursework and gaining credits, time management is important in this game.
-
-###### Game Reference ######
-
-Spirts: 
-- Mario, Coins, Blocks, Bricks -> https://github.com/zigurous/unity-super-mario-tutorial
-- Enemy -> https://www.spriters-resource.com/nes/supermariobros/
-- Image GameOver, Instructions, MarioWin, StartPic, Story -> Generated by AI DALL-E: https://openai.com/blog/dall-e/
-- Background -> 8K Skybox Pack Free: https://assetstore.unity.com/packages/2d/textures-materials/sky/8k-skybox-pack-free-150926
-- MCS Building -> https://www.dur.ac.uk/catering/retail/mcscafe/, Generated to pixel by Pixel-Me: https://pixel-me.tokyo/en/
-- Image Frederick Li -> https://www.durham.ac.uk/staff/frederick-li/, Generated to pixel by Pixel-Me: https://pixel-me.tokyo/en/
-
-Music:
-- Level&minigame, Menu_level: Created by myself by using Logic Pro X.
-- beat,hit,jump,move and pickupcoin -> Generated by: https://pro.sfxr.me/
-
-Code reference (detail in the Scripts/code comments about how I used it):
-https://github.com/zigurous/unity-2048-tutorial
-https://github.com/zigurous/unity-super-mario-tutorial
-
-###### Game testing ######
-
-- I have tested the game on Mac OS and Windows, it works fine.
-- I have brought three people to test the game a few times; they all think it is fun and exciting but also challenging. It passes the UAT test.
-
-###### File Description ######
-
-- Mario-s-Study-Adventure-A-journey-through-Durham-University-MCS: The unity project folder should be able to open in Unity.
-- GameVideo.Mov: The video in 1 min.
-- ReadMe.txt: This file.
-- Game specification form
-
-###### Error handling #######
-
-- If meet: this environment was in mac, need to switch to windows version, then click switch to windows.
-
-- If meet the font name does not match, click the error and right side click "fix name".
+Enjoy exploring the amalgamation of academia and adventure with Mario! Your feedback and contributions to the project are always welcomed and appreciated. Happy Gaming & Coding! 🚀🎓🍄
