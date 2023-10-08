@@ -3,6 +3,9 @@
 Embark on an enlightening adventure with Mario, exploring the fields of Computer Science at Durham University!
 
 ## Table of Contents
+- [Preview](#preview)
+- [Gamestory](#gamestory)
+- [Gamegenre](#gamegenre)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Asset & Package References](#asset--package-references)
@@ -13,6 +16,19 @@ Embark on an enlightening adventure with Mario, exploring the fields of Computer
 - [Game Testing](#game-testing)
 - [File Descriptions](#file-descriptions)
 - [Troubleshooting](#troubleshooting)
+
+## Preview
+### Game Preview
+![Game Preview](GameVideo.gif)
+
+## Game Story
+Mario enrols at Durham University to study computer science. He needs to get credits,
+finish coursework, and find MCS building in a limited time while facing challenges from
+Bowser's “Lazy factors”. With help from Frederick Li, he strives to earn his degree. Will he
+succeed? Time will tell.
+
+## Game genre
+2D platform, Strategy, Puzzle, Simulation
 
 ## Prerequisites
 ### Unity Version
